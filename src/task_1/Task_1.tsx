@@ -21,7 +21,7 @@ export const Task_1 = () => {
 };
 
 const Title = (props: { title: string }) => {
-    console.log('Title rendered')
+    console.log('Title render')
     return (
         <h3>{props.title}</h3>
     )
